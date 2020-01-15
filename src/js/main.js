@@ -265,10 +265,9 @@ var draw = (function(){
             ctx.lineTo(x1, y1);
             ctx.stroke();
             ctx.fill();
-
         },
 
-        //Draw a rectange
+        //Draw a rectangle
         drawRect: function(){
             ctx.fillStyle = this.getFillColor();
             ctx.strokeStyle = this.getStrokeColor();
